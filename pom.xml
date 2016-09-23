@@ -77,17 +77,22 @@
 		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 		<!-- PLEASE FILL THIS WITH YOUR OWN DATABASE DRIVER -->
 		<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+	  	<dependency>
+                       <groupId>org.hsqldb</groupId>
+                       <artifactId>hsqldb</artifactId>
+                       <version>2.3.4</version>
+		</dependency>
 		<dependency>
-			<groupId>org.hsqldb</groupId>
-			<artifactId>hsqldb</artifactId>
-			<version>2.3.2</version>
+	  		<groupId>org.postgresql</groupId>
+	  		<artifactId>postgresql</artifactId>
+			<version>9.4.1211.jre7</version>
 		</dependency>
 
 		<!-- Test -->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>4.12</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>

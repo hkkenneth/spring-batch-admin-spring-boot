@@ -73,8 +73,8 @@ public class TestBatchConfiguration {
 	public DataSource dataSource() {
 		BasicDataSource dataSource = new BasicDataSource();
 		dataSource.setDriverClassName(jdbcDriver.class.getCanonicalName());
-		dataSource.setUrl("jdbc:hsqldb:hsql://localhost");
-		dataSource.setUsername("sa");
+		dataSource.setUrl("jdbc:hsqldb:hsql://localhost/xdb");
+		dataSource.setUsername("SA");
 		dataSource.setPassword("");
 		return dataSource;
 	}
